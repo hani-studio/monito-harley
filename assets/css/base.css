@@ -1,0 +1,23 @@
+:root {
+    --white-color: #fff;
+    --primary-color: #003459;
+    --secondary-color: #F7DBA7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,114 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-20);
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: var(--space-8);
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: var(--space-4);
+  text-align: left;
+  padding: var(--space-8) var(--space-8) var(--space-20);
+}
+
+.product__info h6 a {
+  text-decoration: none;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+.product__info p a {
+  text-decoration: none;
+  color: var(--primary-color);
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.price {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.specific-info {
+  display: flex;
+  width: 100%;
+  color: #667479;
+  gap: var(--space-8);
+}
+
+.specific-info p + p {
+  font-weight: bold;
+}
+
+.img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Blog list */
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-20);
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: var(--space-8);
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  padding: var(--space-8);
+  color: var(--primary-color);
+}
+.blog-tag p {
+  display: flex;
+  width:max-content;
+  align-items: center;
+  background-color: #00A7E7;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  font-style: normal;
+  margin: 0;
+  border-radius: 28px;
+  padding: 8px 20px;
+
+}
+
+.blog-content__text h6 {
+font-weight: 800;
+font-style: normal;
+line-height: 1.5;
+}
+
+.blog-content__text p {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  }
+  

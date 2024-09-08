@@ -1,0 +1,120 @@
+footer {
+    background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    padding: 80px 0;
+    text-align: center;
+    border-radius: 40px 40px 0 0;
+}
+
+/* Newsletter Section */
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-48);
+    background-color: #082944;
+    padding: 20px 32px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.newsletter h5 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    width: max-content;
+    text-wrap: nowrap;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.newsletter__form {
+    width: 100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.newsletter__form input {
+    padding: 10px 20px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.newsletter__form button {
+    padding: 10px 20px;
+    height: 48px;
+    background-color: #003459;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Navigation Links */
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CCD1D2;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer__links {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    list-style: none;
+}
+
+.footer__links li {
+    font-size: 1em;
+}
+
+.footer__links a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Social Media and Bottom Info */
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 40px 0;
+}
+
+.footer__copyright {
+    margin-top: 10px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.footer__policies {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer__policies a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+}

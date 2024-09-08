@@ -1,0 +1,100 @@
+.header {
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 253, 248, 0.6); /* Màu nền với độ trong suốt */
+    backdrop-filter: blur(10px); /* Tạo hiệu ứng mờ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Để header luôn nằm trên cùng */
+    transition: background-color 0.3s ease;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    align-items: center;
+    height: 100px;
+}
+
+.header__logo {
+    width: 115px;
+    /* Adjust the size of the logo */
+    height: 40px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 48px;
+}
+
+.header__nav-item {
+    display: inline-block;
+}
+
+.header__nav-item a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header__right {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+}
+
+.header__cta {
+    display: flex;
+    text-wrap: nowrap;
+    background-color: #003d66;
+    padding: 15px 32px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    min-width: 280px;
+    padding: 12px 20px 12px 16px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.search-bar input {
+    border: none;
+    color: #99A2A5;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.search-bar .icon {
+    color: #667479;
+    margin-right: 12px;
+}
+
+/* Block: currency-selector */
+.currency-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    color: var(--primary-color);
+}

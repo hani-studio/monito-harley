@@ -1,0 +1,11 @@
+@import './base.css';
+@import './spacing.css';
+@import './fonts.css';
+@import './main.css';
+
+@import './components/header.css';
+@import './components/btn.css';
+@import './components/info-section.css';
+@import './components/typo.css';
+@import './components/product-list.css';
+@import './components/footer.css'

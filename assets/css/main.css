@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "SVN-Gilroy", sans-serif;
+  background-color: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/person-with-dog.png");
+  background-size: cover;
+  background-position: center;
+  color: var(--primary-color);
+  padding: 250px 0;
+}
+
+.hero__texts {
+  max-width: 480px;
+}
+
+.hero__texts h1 {
+  text-transform: capitalize;
+  position: relative;
+  margin: 0 0 4px;
+}
+
+.hero__texts h2 {
+  font-size: 46px;
+  line-height: 60px;
+  margin: 0 0 24px;
+}
+
+.hero__texts p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px 24px 32px 0px;
+}
+
+/* Section Banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("../img/One more friend-banner.png");
+  background-size: cover;
+  background-position: center;
+  padding: var(--space-64);
+  border-radius: var(--space-20);
+}
+
+.banner-adoption {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url("../img/banner-adoption.png");
+  background-size: cover;
+  background-position: center;
+  padding: var(--space-64);
+  border-radius: var(--space-20);
+}
+
+.banner__texts {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  max-width: 500px;
+}
+
+.banner-adoption__texts {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  max-width: 500px;
+}
+
+.banner__btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-20);
+  margin-top: var(--space-20);
+}
+
+.banner-adoption__btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--space-20);
+    margin-top: var(--space-20);
+  }
+
+  /* Badge */
+.badge--free {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fceed5;
+  border-radius: var(--space-8);
+  padding: var(--space-8);
+}
+
+.partner {
+  padding: 0 0 var(--space-64);
+}
+.logo-listing {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}

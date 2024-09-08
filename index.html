@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monito Pets for Best</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <img
+          src="assets/img/monito-logo.svg"
+          alt="Monitor Logo"
+          class="header__logo"
+        />
+        <ul class="header__nav">
+          <li class="header__nav-item"><a href="#">Home</a></li>
+          <li class="header__nav-item"><a href="#">Category</a></li>
+          <li class="header__nav-item"><a href="#">About</a></li>
+          <li class="header__nav-item"><a href="#">Contact</a></li>
+        </ul>
+
+        <!-- Right Side (Search Bar, Join Button, Currency Selector) -->
+        <div class="header__right">
+          <div class="search-bar">
+            <i data-feather="search" class="icon"></i>
+            <input type="text" placeholder="Search something here!" />
+          </div>
+
+          <div>
+            <button class="btn btn--primary header__cta">
+              Join the community
+            </button>
+          </div>
+
+          <div class="currency-selector">
+            <img src="assets/img/flag-of-VN.svg" alt="VND" />
+            <span>VND</span>
+            <i data-feather="chevron-down"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__texts h1">
+          <h1>One More Friend</h1>
+          <h3>Thousands More Fun!</h3>
+          <p class="hero-discription">
+            Having a pet means you have more joy, a new friend, a happy person
+            who will always be with you to have fun. We have 200+ different pets
+            that can meet your needs!
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn btn--secondary">View Intro</a>
+            <a href="#" class="btn btn--primary">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- body content -->
+    <section class="category container">
+      <div class="info-section">
+        <div class="info-section__content">
+          <div>
+            <p>Whats new?</p>
+            <h5>Take A Look At Some Of Our Pets</h5>
+          </div>
+          <a href="#" class="btn btn--secondary btn--small">View more</a>
+        </div>
+      </div>
+
+      <div class="product-list">
+        <!-- Card 1 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO231 - Pomeranian White"
+            src="assets/img/MO231 - Pomeranian White.png"
+          />
+
+          <div class="product__info">
+            <h6><a href="#">MO231 - Pomeranian White</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">6.900.000 VND</a></p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO502 - Poodle Tiny Yellow"
+            src="assets/img/MO502 - Poodle Tiny Yellow.png"
+          />
+
+          <div class="product__info">
+            <h6><a href="#">MO502 - Poodle Tiny Yellow</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">3.900.000 VND</a></p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO102 - Poodle Tiny Sepia"
+            src="assets/img/MO102 - Poodle Tiny Sepia.png"
+          />
+
+          <div class="product__info">
+            <h6><a href="#">MO102 - Poodle Tiny Sepia</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">4.000.000 VND</a></p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO512 - Alaskan Malamute Grey"
+            src="assets/img/MO512 - Alaskan Malamute Grey.png"
+          />
+          <div class="product__info">
+            <h6><a href="#">MO512 - Alaskan Malamute Grey</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">8.900.000 VND</a></p>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO231 - Pembroke Corgi Cream"
+            src="assets/img/MO231 - Pembroke Corgi Cream.png"
+          />
+          <div class="product__info">
+            <h6><a href="#">MO231 - Pembroke Corgi Cream</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">7.900.000 VND</a></p>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO502 - Pembroke Corgi Tricolor"
+            src="assets/img/MO502 - Pembroke Corgi Tricolor.png"
+          />
+          <div class="product__info">
+            <h6><a href="#">MO502 - Pembroke Corgi Tricolor</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">9.900.000 VND</a></p>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO231 - Pomeranian White"
+            src="assets/img/MO231 - Pomeranian White-2.png"
+          />
+          <div class="product__info">
+            <h6><a href="#">MO231 - Pomeranian White</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">6.500.000 VND</a></p>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="MO512 - Poodle Tiny Dairy Cow"
+            src="assets/img/MO512 - Poodle Tiny Dairy Cow.png"
+          />
+          <div class="product__info">
+            <h6><a href="#">MO512 - Poodle Tiny Dairy Cow</a></h6>
+            <div class="specific-info">
+              <p>Gene:</p>
+              <p>Male</p>
+              <img src="assets/img/dot.svg" />
+              <p>Age:</p>
+              <p>2 months</p>
+            </div>
+            <p><a class="price">5.00.000 VND</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner container">
+      <div class="banner__texts">
+        <h2>One More Friend</h2>
+        <h4>Thousands More Fun!</h4>
+        <p class="banner-discription">
+          Having a pet means you have more joy, a new friend, a happy person who
+          will always be with you to have fun. We have 200+ different pets that
+          can meet your needs!
+        </p>
+        <div class="banner__btn-group">
+          <a href="#" class="btn btn--secondary">View Intro</a>
+          <a href="#" class="btn btn--primary">Explore Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- productlist 2 -->
+    <section class="category container">
+      <div class="info-section">
+        <div class="info-section__content">
+          <div>
+            <p>Hard to choose right products for your pets?</p>
+            <h5>Our Products</h5>
+          </div>
+          <a href="#" class="btn btn--secondary btn--small">View more</a>
+        </div>
+      </div>
+
+      <div class="product-list">
+        <!-- Card 1 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Reflex Plus Adult Cat Food Salmon"
+            src="assets/img/Reflex Plus Adult Cat Food Salmon.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6><a href="#">Reflex Plus Adult Cat Food Salmon</a></h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Dog Food</p>
+                <img src="assets/img/dot.svg" />
+                <p>Size:</p>
+                <p>385gm</p>
+              </div>
+              <p><a class="price">140.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Reflex Plus Adult Cat Food Salmon"
+            src="assets/img/Reflex Plus Adult Cat Food Salmon-2.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6><a href="#">Reflex Plus Adult Cat Food Salmon</a></h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Cat Food</p>
+                <img src="assets/img/dot.svg" />
+                <p>Size:</p>
+                <p>1.5kg</p>
+              </div>
+              <p><a class="price">160.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Cat scratching ball toy kitten sisal rope ball"
+            src="assets/img/Cat scratching ball toy kitten sisal rope ball.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6>
+                <a href="#">Cat scratching ball toy kitten sisal rope ball</a>
+              </h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Toy</p>
+              </div>
+              <p><a class="price">1.160.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Cat Food</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Cute Pet Cat Warm Nest"
+            src="assets/img/Cute Pet Cat Warm Nest.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6>
+                <a href="#">Cute Pet Cat Warm Nest</a>
+              </h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Toy</p>
+              </div>
+              <p><a class="price">460.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Cat Food</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="NaturVet Dogs - Omega-Gold Plus Salmon Oil"
+            src="assets/img/NaturVet Dogs - Omega-Gold Plus Salmon Oil.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6>
+                <a href="#">NaturVet Dogs - Omega-Gold Plus Salmon Oil</a>
+              </h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Toy</p>
+              </div>
+              <p><a class="price">360.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Costumes Fashion Pet Clother Cowboy Rider"
+            src="assets/img/Costumes Fashion Pet Clother Cowboy Rider.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6>
+                <a href="#">Costumes Fashion Pet Clother Cowboy Rider</a>
+              </h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Toy</p>
+              </div>
+              <p><a class="price">500.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Costumes Chicken Drumsti ck Headband"
+            src="assets/img/Costumes Chicken Drumsti ck Headband.png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6>
+                <a href="#">Costumes Chicken Drumsti ck Headband</a>
+              </h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Toy</p>
+              </div>
+              <p><a class="price">400.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="product-card">
+          <img
+            class="img"
+            alt="Plush Pet Toy"
+            src="assets/img/Plush Pet Toy .png"
+          />
+
+          <div class="product__info">
+            <div>
+              <h6>
+                <a href="#">Plush Pet Toy</a>
+              </h6>
+              <div class="specific-info">
+                <p>Product:</p>
+                <p>Toy</p>
+              </div>
+              <p><a class="price">250.000 VND</a></p>
+            </div>
+            <div class="badge--free">
+              <img src="assets/img/icon-gift.svg" alt="Gift" />
+              <img src="assets/img/dot-2.svg" alt="dot" />
+              <p>Free Toy & Free Shaker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partner container">
+      <div class="info-section">
+        <div class="info-section__content">
+          <div class="info-section__content-text">
+            <p>Proud to be part of</p>
+            <h5>Pet Sellers</h5>
+          </div>
+          <a href="#" class="btn btn--secondary btn--small">View more</a>
+        </div>
+      </div>
+
+      <div class="logo-listing">
+        <div class="logo-item">
+          <img src="assets/img/logo/Sheba.png" alt="Sheba" />
+        </div>
+        <div class="logo-item">
+          <img src="assets/img/logo/whiskas.png" alt="Whiskas" />
+        </div>
+
+        <div class="logo-item">
+          <img src="assets/img/logo/bakers.png" alt="Bakers" />
+        </div>
+
+        <div class="logo-item">
+          <img src="assets/img/logo/felix.png" alt="Felix" />
+        </div>
+
+        <div class="logo-item">
+          <img src="assets/img/logo/goodboy.png" alt="Good Boy" />
+        </div>
+
+        <div class="logo-item">
+          <img src="assets/img/logo/butchers.png" alt="Butcher's" />
+        </div>
+
+        <div class="logo-item">
+          <img src="assets/img/logo/pedigree.png" alt="Pedigree" />
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-adoption container">
+      <div class="banner-adoption__texts">
+        <h2>Adoption</h2>
+        <h4>We need help. so do they.</h4>
+        <p class="banner-adoption-discription">
+          Adopt a pet and give it a home, it will be love you back
+          unconditionally.
+        </p>
+        <div class="banner-adoption__btn-group">
+          <a href="#" class="btn btn--secondary">View Intro</a>
+          <a href="#" class="btn btn--primary">Explore Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs container">
+      <div class="info-section">
+        <div class="info-section__content">
+          <div>
+            <p>You already know ?</p>
+            <h5>Useful pet knowledge</h5>
+          </div>
+          <a href="#" class="btn btn--secondary btn--small">View more</a>
+        </div>
+      </div>
+
+      <div class="blog-list">
+        <div class="blog-card">
+          <img
+            alt="Happy Dog"
+            src="assets/img/blog/blog1.png"
+          />
+
+          <div class="blog-content">
+            <div class="blog-tag">
+              <p>Pet knowledge</p>
+            </div>
+            <div class="blog-content__text">
+              <h6>What is a Pomeranian? How to Identify Pomeranian Dogs</h6>
+              <p>
+                The Pomeranian, also known as the Pomeranian (Pom dog), is
+                always in the top of the cutest pets. Not only that, the small,
+                lovely, smart, friendly, and skillful circus dog breed.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img
+            alt="Happy Dog"
+            src="assets/img/blog/Dog Diet You Need To Know.png"
+          />
+
+          <div class="blog-content">
+            <div class="blog-tag">
+              <p>Pet knowledge</p>
+            </div>
+            <div class="blog-content__text">
+              <h6>Dog Diet You Need To Know</h6>
+              <p>
+                Dividing a dog's diet may seem simple at first, but there are
+                some rules you should know so that your dog can easily absorb
+                the nutrients in the diet. For those who are just starting to
+                raise dogs, especially newborn puppies with relatively weak
+                resistance.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img
+            alt="Happy Dog"
+            src="assets/img/blog/Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively.png"
+          />
+
+          <div class="blog-content">
+            <div class="blog-tag">
+              <p>Pet knowledge</p>
+            </div>
+            <div class="blog-content__text">
+              <h6>
+                Why Dogs Bite and Destroy Furniture and How to Prevent It
+                Effectively
+              </h6>
+              <p>
+                Dog bites are common during development. However, no one wants
+                to see their furniture or important items being bitten by a dog.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feather Icons script initialization -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+
+  <footer class="footer">
+    <div class="container">
+        <!-- Newsletter Section -->
+        <div class="newsletter container">
+            <h5>Register Now So You Don't Miss <br> Our Programs</h5>
+            <div class="newsletter__form">
+                <input type="email" placeholder="Enter your Email">
+                <button type="submit">Subscribe Now</button>
+            </div>
+        </div>
+
+         <!-- Navigation Links -->
+         <div class="footer__nav container">
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="footer__socials">
+                <img href="#" src="assets/img/Facebook - Negative.svg">
+                <img href="#" src="assets/img/Twitter - Negative.svg">
+                <img href="#" src="assets/img/Instagram - Negative.svg">
+                <img href="#" src="assets/img/YouTube - Negative.svg">
+            </div>
+        </div>
+
+        <!-- Social Media and Legal Info -->
+        <div class="footer__bottom container">
+        
+            <p class="footer__copyright">© 2022 Monito. All rights reserved.</p>
+            <img src="assets/img/monito-logo.svg"/>
+            <ul class="footer__policies">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+  </footer>
+</html>

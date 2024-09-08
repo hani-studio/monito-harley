@@ -1,0 +1,21 @@
+.info-section__content {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin: var(--space-64) 0 var(--space-32);
+    color: var(--primary-color);
+}
+
+.info-section__content-text {
+    display: flex;
+    gap: var(--space-12);
+    align-items: center;
+}
+
+.info-section p {
+    margin-bottom: 4px;
+}
+
+.info-section h5 {
+    text-wrap: nowrap;
+}
